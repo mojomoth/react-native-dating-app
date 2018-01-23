@@ -1,0 +1,10 @@
+{
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "rules": {
+        "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+        "react/prop-types": "off",
+        "global-require": "off",
+        "react/prefer-stateless-function": "off"
+    }
+}

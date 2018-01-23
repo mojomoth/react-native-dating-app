@@ -1,0 +1,43 @@
+{
+  "name": "react-native-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "jest-expo": "23.0.0",
+    "node-pre-gyp": "^0.6.39",
+    "react-test-renderer": "16.0.0",
+    "redux-devtools": "^3.4.1",
+    "@storybook/react-native": "^3.3.10",
+    "@storybook/addon-actions": "^3.3.10",
+    "@storybook/addon-links": "^3.3.10",
+    "@storybook/addons": "^3.3.10",
+    "babel-core": "^6.26.0",
+    "react-dom": "16.0.0",
+    "prop-types": "^15.6.0"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "node node_modules/jest/bin/jest.js --watch",
+    "storybook": "storybook start -p 7007"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "react": "16.0.0",
+    "react-native": "0.50.3",
+    "react-native-navigation": "^1.1.349",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.16.0"
+  }
+}
